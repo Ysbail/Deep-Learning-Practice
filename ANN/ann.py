@@ -54,3 +54,4 @@ y_pred_yes = y_pred > 0.5
 cm = confusion_matrix(y_test, y_pred_yes)
 
 accuracy = accuracy_score(y_test, y_pred_yes)
+# accuracy for this data is 0.842
